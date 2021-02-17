@@ -1,0 +1,41 @@
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APP Idade</title>
+    <link rel="stylesheet" href="./main.css" type="text/css">
+    <script src="./main.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>APP Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Ano de nascimento
+                <input type="number" name="txtano" id="txtano" min="1950">
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima
+        </div>
+    </section>
+    <footer id="final">
+        <p>&copy; Viniz</p>
+    </footer>
+</body>
+
+</html>
